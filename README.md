@@ -1,4 +1,7 @@
-<<<<<<< HEAD
+[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)]()
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.5-orange.svg)]()
+[![XGBoost](https://img.shields.io/badge/xgboost-2.1.1-green.svg)]()
+
 # House Price ML Pipeline (Linear • KNN • XGBoost)
 
 **Author:** Srivatsav Shrikanth
@@ -24,6 +27,13 @@ Real estate investors and analysts rely on accurate price estimation to benchmar
    * K-Nearest Neighbors (distance-weighted, target standardized)
    * XGBoost (ensemble with 500 trees, depth 6)
 5. **Evaluation** – R-squared · RMSE · MAE + residual diagnostics + feature importance visuals
+
+---
+## QuickStart
+
+pip install -r requirements.txt
+python src/predict_one.py
+
 
 ---
 
@@ -191,16 +201,15 @@ house-price-ml-pipeline/
 
 ## What This Project Demonstrates
 
-✅ End-to-end ML workflow (business → EDA → model → diagnostics)
-✅ Reproducible pipelines using scikit-learn best practices
-✅ Ability to interpret and communicate technical findings in business language
-✅ Mindset of an ML Engineer who bridges **academic analysis and production thinking**
+* End-to-end ML workflow (business → EDA → model → diagnostics)
+* Reproducible pipelines using scikit-learn best practices
+* Ability to interpret and communicate technical findings in business language
+* Mindset of an ML Engineer who bridges **academic analysis and production thinking**
 
 ---
 
-## 🤝 About the Author
+## About the Author
 
 **Srivatsav Shrikanth**
 Graduate Student | Business Insights & Analytics (Humber College) · MSADA (Boston University MET)
->>>>>>> 03679f3 (Added structured pipeline, visuals, and professional README)
 📍 Toronto, Canada
